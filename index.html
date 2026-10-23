@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BookNomad - Accueil</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right,#cf8d5600, #edb55a);
+    color: white;
+    
+}
+#St{
+    background-image: url(booknomad.avif);
+    padding-bottom: 0%;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.class1 {
+    text-align: center;
+    padding: 100px;
+}
+
+
+.class1 h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style:unset;
+}
+
+.class1 p {
+    font-size: 20px;
+    max-width: 600px;
+    margin: auto;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.class2 {
+    margin-top: 30px;
+}
+
+.class2 a {
+    text-decoration: none;
+}
+
+.class2 button {
+    padding: 15px 25px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.b1 {
+    background: #ffdd57;
+    color: black;
+}
+
+.b1:hover {
+    background: #ffe98a;
+    transform: scale(1.05);
+}
+
+
+
+.b2 {
+    background: white;
+    color: black;
+    
+}
+.b2:hover {
+    background: whitesmoke;
+    transform: scale(1.05);
+}
+
+.class3 {
+  display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    color: black;
+}
+
+.class4 {
+  background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+    background-color:beige;
+    border:solid 1px  burlywood;
+}
+.class4 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    ;
+    font-style:normal;
+    font-weight:500;
+    font-size: 17px;
+
+}
+.class4 h3{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.class4:hover {
+    transform: translateY(-10px);
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: rgba(0,0,0,0.3);
+    font-size: 14px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+.fc {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.fs {
+    margin: 15px;
+    width: 220px;
+}
+
+.fs h3 {
+    margin-bottom: 15px;
+    color: black;
+}
+
+.fs p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.fb {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    font-size: 13px;
+}
+</style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" width="10%" height="10%">
+            <h1>BookNomad</h1>
+        </div>
+        <nav id ="nav">
+        <a href="index.html">Accueil</a>
+        <a href="catalogue.php">Catalogue</a>
+        <a href="Connexion.php">Connexion</a>
+        <a href="Inscription.php">Inscription</a>
+        </nav>
+    </header>
+<section id="St">
+    <section class="class1" >
+        <h2 >Partage tes livres entre étudiants</h2>
+        
+        <p >
+        BookNomad est une plateforme collaborative qui permet aux étudiants
+        de prêter et emprunter des livres facilement, sans dépenser d’argent.
+        </p>
+        <div class="class2">
+            <a href="Connexion.php">
+                <button class="b1">Se connecter</button>
+            </a>
+            <a href="Inscription.php">
+                <button class="b2"> S'inscrire</button>
+            </a>
+        </div>
+    </section> 
+
+    <section class="class3">
+        <div class="class4">
+            <h3>Catalogue partagé</h3>
+            <p>Accédez à des centaines de livres proposés par des étudiants.</p>
+        </div>
+
+        <div class="class4">
+            <h3>Emprunt facile</h3>
+            <p>Empruntez et retournez des livres en quelques clics.</p>
+        </div>
+        <div class="class4">
+            <h3>Économique & Écologique</h3>
+            <p>Réduisez les coûts et encouragez le partage.</p>
+        </div>
+    </section>
+</section>
+    <footer>
+    <div class="fc">
+        <div class="fs">
+            <h3>À propos</h3> 
+            <p>Plateforme dédiée aux étudiants pour partager des livres et des ressources éducatives.</p>
+        </div>
+
+        <div class="fs">
+            <h3>Contact</h3>
+            <p> Téléphone : +216 93741051 
+                </p> <p> fax :73 512 471</p> 
+            <p> Email : BookNomad@gmail.com</p>
+        </div>
+
+        <div class="fs">
+            <h3>Adresse</h3>
+            <p>ISIMM :Institut Supérieur d'Informatique et de Mathématiques de Monastir </p> 
+            <p>Tunisie, Monastir</p>
+        </div>
+
+        <div class="fs">
+            <h3>Déplacement</h3>
+            <p> Lundi - Vendredi : 9h - 18h</p> 
+        </div>
+    </div>
+
+    <div class="fb"> 2026 Tous droits réservés | Etudiant ISIMM</div>
+</footer>
+
+</body>
+</html>
